@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "718332070646",
+    "project_id": "zoogno-96f97",
+    "storage_bucket": "zoogno-96f97.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718332070646:android:97d2598a82e156333f7ad7",
+        "android_client_info": {
+          "package_name": "com.zoogno.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkdErpLEcO80nNdqoxXatU_8usWtFzpq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718332070646:android:d12cd5d800a17c063f7ad7",
+        "android_client_info": {
+          "package_name": "com.zoogno.deliveryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkdErpLEcO80nNdqoxXatU_8usWtFzpq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718332070646:android:9245615558847a523f7ad7",
+        "android_client_info": {
+          "package_name": "com.zoogno.sellerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkdErpLEcO80nNdqoxXatU_8usWtFzpq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
