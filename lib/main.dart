@@ -12,6 +12,8 @@ import 'package:webview_master_app/utils/notification_service.dart';
 import 'package:webview_master_app/utils/background_service_util.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 
+import 'screens/webview_screen.dart';
+
 /// Main entry point of the application
 void main() async {
   // Ensure Flutter bindings are initialized
@@ -76,8 +78,12 @@ void main() async {
       systemNavigationBarColor: AppConfig.navigationBarColorLight,
       systemNavigationBarIconBrightness:
           AppConfig.navigationBarIconBrightnessLight,
+      systemNavigationBarDividerColor: Colors.transparent,
+      systemNavigationBarContrastEnforced: false,
     ),
   );
+
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
 
   runApp(const MyApp());
 }
@@ -135,7 +141,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       themeMode: _themeMode,
 
       // Home screen
-      home: SplashScreen(),
+      home: const WebViewScreen(),
 
       // Builder for additional configuration
       builder: (context, child) {

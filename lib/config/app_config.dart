@@ -44,13 +44,13 @@ class AppConfig {
   static const Color statusBarColorLight = Color(0x00000000); // Transparent
   static const Brightness statusBarIconBrightnessLight =
       Brightness.dark; // Dark icons
-  static const Color navigationBarColorLight = Color(0xFFFFFFFF); // White
+  static const Color navigationBarColorLight = Color(0x00000000); // Transparent
   static const Brightness navigationBarIconBrightnessLight = Brightness.dark;
 
   // Dark Theme Status Bar
   static const Color statusBarColorDark = Color(0x00000000); // Transparent
   static const Brightness statusBarIconBrightnessDark = Brightness.light; // Light icons
-  static const Color navigationBarColorDark = Color(0xFF121212); // Dark Gray
+  static const Color navigationBarColorDark = Color(0x00000000); // Transparent
   static const Brightness navigationBarIconBrightnessDark = Brightness.light;
 
   // ==================== WEB URL CONFIGURATION ====================

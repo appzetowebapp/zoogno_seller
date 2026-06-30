@@ -24,6 +24,8 @@ class StatusBarUtil {
         systemNavigationBarIconBrightness: isDark
             ? AppConfig.navigationBarIconBrightnessDark
             : AppConfig.navigationBarIconBrightnessLight,
+        systemNavigationBarDividerColor: Colors.transparent,
+        systemNavigationBarContrastEnforced: false,
       ),
     );
   }
@@ -37,6 +39,8 @@ class StatusBarUtil {
         statusBarBrightness: Brightness.dark,
         systemNavigationBarColor: Colors.transparent,
         systemNavigationBarIconBrightness: Brightness.light,
+        systemNavigationBarDividerColor: Colors.transparent,
+        systemNavigationBarContrastEnforced: false,
       ),
     );
   }
@@ -48,9 +52,11 @@ class StatusBarUtil {
         statusBarColor: AppConfig.statusBarColorLight,
         statusBarIconBrightness: AppConfig.statusBarIconBrightnessLight,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: AppConfig.navigationBarColorLight,
+        systemNavigationBarColor: Colors.transparent,
         systemNavigationBarIconBrightness:
             AppConfig.navigationBarIconBrightnessLight,
+        systemNavigationBarDividerColor: Colors.transparent,
+        systemNavigationBarContrastEnforced: false,
       ),
     );
   }
@@ -62,9 +68,11 @@ class StatusBarUtil {
         statusBarColor: AppConfig.statusBarColorDark,
         statusBarIconBrightness: AppConfig.statusBarIconBrightnessDark,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: AppConfig.navigationBarColorDark,
+        systemNavigationBarColor: Colors.transparent,
         systemNavigationBarIconBrightness:
             AppConfig.navigationBarIconBrightnessDark,
+        systemNavigationBarDividerColor: Colors.transparent,
+        systemNavigationBarContrastEnforced: false,
       ),
     );
   }
