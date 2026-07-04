@@ -55,7 +55,7 @@ class AppConfig {
 
   // ==================== WEB URL CONFIGURATION ====================
   // ⚠️ CHANGE THIS URL TO YOUR WEB APPLICATION ⚠️
-  static const String webUrl = 'https://zoogno.com/seller/auth';
+  static const String webUrl = 'https://zoogno.com/seller/';
 
   /// Role sent with FCM token registration so the backend can target this device.
   static String get appRole {
